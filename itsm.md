@@ -4,13 +4,13 @@ IT service management (ITSM)
 ## Table of Content
 [1. Overview](#1-overview)<br>
 [2. Background](#2-background)<br>
-[2.1 Atlassian Jira](#21-atlassian-suite)<br>
-[2.2 Jira service desk](#22-jira-service-desk)<br>
-[2.3 ServiceNow](#23-servicenow)<br>
-[2.4 ZenDesk](#24-zendesk )
-[3. Similarities](#3-similarities)<br>
-[4. Differences](#4-differences)<br>
-[5. Notes](#5-notes)<br>
+[2.1. Jira service desk](#21-jira-service-desk)<br>
+[2.2. ServiceNow](#22-servicenow)<br>
+[2.3. ZenDesk](#23-zendesk )<br>
+[3. Feature Analysis](#3-feature-analysis)<br>
+[4. Similarities](#4-similarities )<br>
+[5. Differences](#5-differences)<br>
+[6. Notes](#6-notes)<br>
 
 ## 1. Overview
 
@@ -24,29 +24,7 @@ Businesses usually move their operations to different cloud providers to meet di
 
  There are multiple frameworks that fall under ITSM, and some address unique industry-specific IT needs, including those in healthcare, government or technology. Businesses using ITSM consider IT as a service, with a focus on delivering valuable services to customers, rather than a department that manages technology.
      
-### 2.1 Atlassian suite
-#### Jira
-
-Jira is a project management software popular among many companies of different sizes. With a really high score and user satisfaction rate, it is currently one of the top project management solutions. Jira usually ships with Confluence, and can be combined with many other tools from its family or third parties.
-
-Confluence is meant to complement JIRA to draw out the macro picture. Confluence is the plain language macro vision store, tool of choice for design and documentation, while JIRA acts as the bridge between the likes of Bitbucket and Confluence. One popular configuration for large enterprises is Jira + Confluence + Bitbucket
- 
-JIRA, like GitHub and GitLab, is an execution and delivery tool. 
- 
-![picture alt](https://wac-cdn.atlassian.com/dam/jcr:59e55d3b-42a4-4284-976a-d6d78ba4046e/2018%20Magic%20Quadrant%20for%20Enterprise%20Agile%20Planning%20Tools.png?cdnVersion=kr)
-
- - Gartner peer insights: 4.4/5
- - Target audience: Small to Large Enterprises 
- - Notable features: robust integration capabilities and low cost of ownership; user-friendly; mobile app
- - Pricing: Flexible
-   - Cloud (free trial for 7 days)
-     - Up to 10 users – $10 monthly flat fee
-     - 11 – 100 users – $7 per user/month
-   - Self-hosted (free trial for 30 days)
-     - Server – $10  one-time payment for 10 users
-     - Data Center – $12,000 per year for 500 users
- 
-#### 2.2 Jira Service Desk
+### 2.1. Jira Service Desk
 
 Jira Service Desk is another product by Atlassian that complements popular issue tracking platform. 
 
@@ -60,7 +38,7 @@ The Confluence add-on for Jira Service Desk uses machine learning to direct cust
  - Pricing: Accounts start at $10 per month for up to 10 users, and $7 per month for 11-100 users. For 100+ users, you’ll need to get a custom quote.
  
 ---
-### 2.3 ServiceNow
+### 2.2. ServiceNow
 
 ServiceNow is a born-in-the-cloud SaaS and platform offering that started out focusing on ITIL-based IT service management applications.
 
@@ -76,7 +54,7 @@ It is usually the ticketing and self-service platform of choice for large enterp
 - Pricing: Quote based only.
 
 ---
-### 2.4 Zendesk
+### 2.3. Zendesk
 
 Zendesk is a user-friendly and comprehensive IT ticketing system that is easy to implement and maintain. Zendesk also regularly pushes updates and adds new features, so the product can grow with your company.
 
@@ -89,7 +67,64 @@ Zendesk is more cost effective for smaller companies and really easy to get runn
 - Notable features: Straightforward pricing and customization - options
 - Pricing: The entire Zendesk suite (including Support, Guide, Chat and Talk) starts at $89 per user per month, but you can also choose individual services provided in the suite. The monthly fee for Support ranges from $5 to $200 per user; free to $29 for Guide; free to $59 for Chat; and free to $89 for Talk. Each individual product has its own pricing tier to choose from, with most offering a free lite version of the software.
 
-## 3. Similarities
+## 3. Feature Analysis
+| ﻿                                                                                                                                                                               |                                                                                       |                                             |                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------|---------------------------|
+|                                                                                                                                                                                                 |                                                                                       |                                             |                           |
+| Features                                                                                                                                                                                        | Zendesk                                                                               | ServiceNow – Customer Service Management    | Atlassian Suite           |
+| General                                                                                                                                                                                         |                                                                                       |                                             |                           |
+| Editions                                                                                                                                                                                        | Zendesk offers four different editions – Essential, Team, Professional and Enterprise | ServiceNow offers single enterprise edition | Jira Service Desk         |
+| Account Management                                                                                                                                                                              |                                                                                       |                                             |                           |
+| Manage customer accounts                                                                                                                                                                        | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Manage partner accounts. Some organizations offers support to their end customers  through partner channel. In such model partner can report a case on behalf of end customers                  | Limited – Using ticket sharing                                                        | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Capture key  Information of an account such as addresses, email, phone, website etc.                                                                                                            | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Manage customer contacts                                                                                                                                                                        | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Manage customer locations, addresses                                                                                                                                                            | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Define hierarchy and relationship between two accounts                                                                                                                                          | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Define and manage “Person accounts”. Accounts for individual consumers                                                                                                                          | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[ ] No </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Product and Asset Management                                                                                                                                                                    |                                                                                       |                                             |                           |
+| Capture information of the products and services sold to your customers                                                                                                                         | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Define multiple product and asset models based on customer’s requirements                                                                                                                       | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Manage Assets and Asset lifecycle – products or services purchased by the customer. Track asset location, ownership, state etc.                                                                 | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Service Contract and Entitlement Management                                                                                                                                                     |                                                                                       |                                             |                           |
+| Maintain Entitlements that specify the level of service provided to customers                                                                                                                   | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Define entitlement for a specific product, account, contract or an asset.                                                                                                                       | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Associate one or many support channels (web, email, phone) and coverage time with an  entitlement                                                                                               | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Maintain Service Contracts that determine the terms and conditions of the service to be provided to the Account                                                                                 | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Manage lifecycle of a service contract – creation, approval, activation, expiration                                                                                                             | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Communication Channels                                                                                                                                                                          |                                                                                       |                                             |                           |
+| Email                                                                                                                                                                                           | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Social ( Twitter, Facebook )                                                                                                                                                                    | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[ ] No </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Chat                                                                                                                                                                                            | Addon – priced separately                                                             | <ul><li>[x] Yes </li></ul>                                       | Addon – priced separately |
+| Phone                                                                                                                                                                                           | Addon – priced separately                                                             | <ul><li>[x] Yes </li></ul>                                       | Addon – priced separately |
+| Knowledge Base                                                                                                                                                                                  |                                                                                       |                                             |                           |
+| Define helpful knowledge articles that answer customer’s questions                                                                                                                              | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| manage lifecycle of different knowledge articles by different set of people with different roles. Ex. Create, review, approve, publish, use, improve, retire articles.                          | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Effectively categorize knowledge articles                                                                                                                                                       | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Access control – restrict access to knowledge articles by groups, rules, profiles etc.                                                                                                          | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Create multiple knowledge base – for different departments, groups etc.                                                                                                                         | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Customer Portal                                                                                                                                                                                 |                                                                                       |                                             |                           |
+| Knowledge base – Allow customers to access knowledge base, view top knowledge articles                                                                                                          | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Community – Allow customers to post questions, share feedback through community                                                                                                                 | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Raise support case                                                                                                                                                                              | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| View asset and product information                                                                                                                                                              | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Contact self registration                                                                                                                                                                       | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Customer manager can manage customer contacts using portal                                                                                                                                      | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Case Management                                                                                                                                                                                 |                                                                                       |                                             |                           |
+| Agent View – Allows Support Agents to effortlessly manage cases (Create, update, work, close) created for multiple customers.                                                                   | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Case assignment and routing                                                                                                                                                                     | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| SLAs and case escalations                                                                                                                                                                       | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Entitlement verification is automatically done when customer submits a case from the Customer Portal. As a result of entitlement case is updated with appropriate Service Contract, entitlement | Limited                                                                               | <ul><li>[x] Yes </li></ul>                                       | Limited                   |
+| Guided mode to prevent cherry picking.                                                                                                                                                          | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[ ] No </li></ul>                                       | <ul><li>[ ] No </li></ul>                     |
+| Macros allow agents to quickly respond to common requests with a standard reply.                                                                                                                | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[ ] No </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Capture product and asset information related to the case                                                                                                                                       | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Capture partner information related with the case                                                                                                                                               | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Timeline to quickly visualize case history                                                                                                                                                      | <ul><li>[ ] No </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Support for customer surveys                                                                                                                                                                    | <ul><li>[x] Yes </li></ul>                                                                                 | <ul><li>[x] Yes </li></ul>                                       | <ul><li>[x] Yes </li></ul>                     |
+| Automation, workflows                                                                                                                                                                           | <ul><li>[x] Yes </li></ul>                                                                                  | <ul><li>[x] Yes </li></ul>                                       |<ul><li>[x] Yes </li></ul>                      |
+
+
+## 4. Similarities
 
 As we're assessing top products, they have all the essential features and polished UI. Among other features, they offer knowledge base integration: Zendesk as a part of their pricing plan, Jira Service Desk as an integration with their another product called Confluence.
 
@@ -100,7 +135,7 @@ ServiceNow, Jira and Zendesk have extensive add-ons ecosystem: with Jira Service
 
 Open API of help desks enables to seamlessly integrate other solutions into your business.
 
-## 4. Differences
+## 5. Differences
 
 Pricing plan differs for all 3.
 
@@ -110,8 +145,36 @@ Zendesk is user-oriented and flexible. It offers powerful reporting and analytic
 
 ServiceNow is oriented towards managing incidents, and besides IT Service Management, it could also handle HR Service Management, Finance Service Management and Security Operations.
 
-## 5. Notes
+### 5.1. Key Differentiators
+#### ServiceNow
 
-Tools should not replace processes. The right tool is usually a mix of tools, with business mission critical needs in focus,
+Like any traditional Help Desk application, ServiceNow CSM helps you in managing customer problem (“issue Management”) using cases, knowledge base, self service portals and other relevant features. Where it excels is its ability to resolve underlying problem (“issue Resolution”) with the help of other ServiceNow – Service Management Applications such as Field Service Management, Facilities Service Management, Change and Release Management etc. Below are some of the key differentiators -
+
+Better Account and Contact Management - Zendesk helps in capturing basic customer and contact information. ServiceNow Account and Contact Management captures more detailed information such as customer locations, relationships, hierarchy.
+Product and Asset Management - ServiceNow Product and Asset Management helps in capturing information of the products and services sold to your customer.
+
+Contracts and Entitlement Management - Contract Management helps in managing service / support contracts, entitlement and coverage.
+Chat and Phone - Chat and Phone are Add-ons and are sold separately by Zendesk. ServiceNow Customer Service Management has inbuilt support for Chat and Phone
+
+Completeness of solution - ServiceNow Customer Service Management also includes below list of applications to execute end-to-end customer service   -
+
+- Field Service Management
+- Incident Management
+- Problem Management
+- Change Management
+- Release Management
+- Asset Management
+
+All these additional application modules helps in effectively resolving customer issue.
+
+#### Zendesk
+
+  Popular and reliable - Zendesk is proven cloud-based customer service application. Many customers trust Zendesk including some of the world's leading brands for customer support.
+  Integrations - Zendesk offers easy integrations with multiple leading software solutions such as Salesforce, Box, Google Apps, JIRA, Microsoft Dynamics, Office 365 etc.
+  B2B and B2C support - Zendesk is designed to offer support for both businesses (B2B) and consumers (B2C)
+  Social support - Zendesk out-of-box supports social channel to create cases. Customers can submit a case through Twitter or Facebook.
+
+
+## 6. Notes
 
 It's very common for large projects to mix Atlassian products (for planing and release management automation) with ServiceNow ticketing and incident management platform.
